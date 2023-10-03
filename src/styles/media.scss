@@ -1,0 +1,128 @@
+$tablet: 1024px;
+$phone: 767px;
+$extra-small-devices: 376px;
+
+@media screen and (max-width: $tablet) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    .homeText {
+      position: absolute;
+      top: 0;
+      background-color: #000000ad;
+      z-index: 200;
+      height: 100vh;
+      ul {
+        li > h5 {
+          color: white;
+        }
+      }
+      > p {
+        color: white;
+      }
+    }
+  }
+  .projects-page-wrapper {
+    .project-card-wrapper {
+      > div {
+        margin-bottom: 15px;
+        width: 700px;
+      }
+      .project-card {
+        width: 650px;
+        .img-half {
+          width: 533px;
+          > img {
+            width: 250px !important;
+            &:hover {
+              margin-top: -780px;
+            }
+          }
+        }
+        .links-container {
+          a {
+            width: 45%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .container {
+    margin: 1em;
+    .whole-contact-content {
+      margin: 20px;
+      .email-wrapper > input {
+        width: 231px;
+      }
+    }
+  }
+  .projects-page-wrapper {
+    .project-card-wrapper {
+      > div {
+        width: 375px;
+      }
+      .project-card {
+        width: 350px;
+        flex-direction: column;
+        height: 400px;
+        .img-half {
+          width: 350px;
+          img {
+            width: 350px !important;
+          }
+        }
+      }
+    }
+  }
+  .home > .homeText {
+    padding: 0 1em;
+    > ul {
+      width: 100%;
+      li {
+        h5 {
+          color: white;
+        }
+      }
+      flex-wrap: wrap;
+    }
+    > p {
+      font-size: 0.8rem;
+      br {
+        content: "";
+      }
+    }
+    .pagesBtn {
+      width: 100%;
+      button {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+  .largeText {
+    font-size: 1.5rem;
+  }
+}
+
+//some more small devices
+
+@media screen and (max-width: $extra-small-devices) {
+  .projects-page-wrapper {
+    .project-card-wrapper {
+      > div {
+        width: 360px;
+      }
+      .project-card {
+        width: 330px;
+        .links-container {
+          a {
+            width: 48%;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

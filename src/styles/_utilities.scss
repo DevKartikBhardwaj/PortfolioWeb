@@ -1,0 +1,47 @@
+$primary-color: rgb(77, 74, 74);
+$secondary-color: #ffa500;
+$primary-font: "Orbitron", sans-serif;
+$secondary-font: "Poppins", sans-serif;
+
+.largeText {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: $secondary-color;
+}
+
+.primary-btn {
+  border: none;
+  background-color: $secondary-color;
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  font-weight: 400;
+  font-family: $secondary-font;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid $secondary-color;
+  transition: all 0.2s ease;
+  &:hover {
+    background-color: black;
+  }
+}
+
+.container {
+  margin: 1rem 5rem;
+  > img {
+    height: 50px;
+    position: absolute;
+    top: 660px;
+    right: 0;
+  }
+}
+
+.primary-heading {
+  font-family: $secondary-font;
+}
+.secondary-heading {
+  font-family: $secondary-font;
+  font-weight: 200;
+  font-size: 0.8rem;
+}

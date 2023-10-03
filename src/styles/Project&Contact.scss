@@ -1,0 +1,111 @@
+@use "utilities";
+//project page related styles
+.projects-page-wrapper {
+  > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  > h6 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .project-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > div {
+      margin-bottom: 15px;
+      width: 921px;
+    }
+    .project-card {
+      display: flex;
+      border: 10px solid utilities.$secondary-color;
+      border-radius: 10px;
+      width: 865px;
+      overflow: hidden;
+      height: 250px;
+      margin: 20px 0;
+      transition: all 0.2s ease;
+      box-shadow: 7px 13px 23px black;
+
+      .img-half {
+        overflow: hidden;
+        width: 930px;
+        background-color: black;
+        > img {
+          width: 400px !important;
+          transition: all 5s ease;
+          &:hover {
+            margin-top: -1380px;
+          }
+        }
+      }
+      .project-description-half {
+        padding: 1rem;
+        width: 100%;
+        background-color: black;
+        h2 {
+          font-family: utilities.$secondary-font;
+        }
+        p {
+          font-family: utilities.$secondary-font;
+          margin: 10px 0;
+          line-height: 23px;
+          color: utilities.$primary-color;
+        }
+      }
+      .links-container {
+        a {
+          // border: 1px solid red;
+          text-align: center;
+          color: utilities.$secondary-color;
+          font-family: utilities.$secondary-font;
+          display: inline-block;
+          width: 40%;
+          img {
+            margin-bottom: -4px;
+          }
+        }
+        > a {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+// contact page related
+
+.whole-contact-content {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .media-link-wrapper {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+  }
+  > p {
+    font-family: utilities.$secondary-font;
+    margin: 20px 0;
+  }
+  .email-wrapper {
+    input {
+      outline: none;
+      border: none;
+      padding: 10px;
+      width: 300px;
+      font-family: utilities.$primary-font;
+      padding-top: 8px;
+    }
+    button {
+      padding: 9.8px 10px;
+      border: none;
+      color: white;
+      background-color: utilities.$secondary-color;
+      cursor: pointer;
+    }
+  }
+}
