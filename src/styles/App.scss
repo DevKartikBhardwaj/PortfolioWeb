@@ -1,3 +1,4 @@
+@use "utilities";
 * {
   margin: 0;
   padding: 0;
@@ -21,4 +22,13 @@ body {
 ::-webkit-scrollbar-thumb {
   background: black;
   // border-radius: 20px;
+}
+
+.links {
+  margin-bottom: 10px;
+  > p > a {
+    color: utilities.$secondary-color;
+    font-family: utilities.$secondary-font;
+    text-decoration: underline;
+  }
 }

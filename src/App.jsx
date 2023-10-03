@@ -4,7 +4,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import "./styles/App.scss";
 import "./styles/Home.scss";
-import "./styles/Links.scss";
+// import "./styles/Links.scss";
 import "./styles/Project&Contact.scss";
 import "./styles/media.scss";
 

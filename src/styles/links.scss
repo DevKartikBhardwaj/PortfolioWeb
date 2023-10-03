@@ -1,10 +1,3 @@
-@use "utilities";
 
-.links {
-  margin-bottom: 10px;
-  > p > a {
-    color: utilities.$secondary-color;
-    font-family: utilities.$secondary-font;
-    text-decoration: underline;
-  }
-}
+
+
