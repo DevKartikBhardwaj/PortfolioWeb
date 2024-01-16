@@ -35,11 +35,21 @@
         > img {
           width: 400px !important;
           transition: all 5s ease;
-          &:hover {
-            margin-top: -1380px;
-          }
+          // &:hover {
+          //   margin-top: -1380px;
+          // }
+        }
+        .img1:hover {
+          margin-top: -1380px;
+        }
+        .img2:hover {
+          margin-top: -525px;
+        }
+        .img4:hover {
+          margin-top: -600px;
         }
       }
+
       .project-description-half {
         padding: 1rem;
         width: 100%;

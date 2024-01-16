@@ -73,6 +73,9 @@ $extra-small-devices: 376px;
           img {
             width: 350px !important;
           }
+          .img1:hover {
+            margin-top: -1280px;
+          }
         }
       }
     }
