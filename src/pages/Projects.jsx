@@ -52,7 +52,7 @@ const Projects = () => {
             img={Coinstein}
             imgClass={"img2"}
           />
-          <ProjectCard
+{/*           <ProjectCard
             cardPosition={"start"}
             title="Notes"
             desc="A cryptocurrency data provider website is a platform that offers
@@ -62,7 +62,7 @@ const Projects = () => {
             live="https://notes-client-rho.vercel.app/"
             img={notes}
             imgClass={"img3"}
-          />
+          /> */}
           <ProjectCard
             cardPosition={"start"}
             title="Bookish"
