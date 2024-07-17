@@ -21,6 +21,7 @@ const Contact = () => {
           }, 2000);
         },
         (error) => {
+          console.log("error");
           setEmail("Oops! Some error occured");
           setTimeout(() => {
             setEmail("");
