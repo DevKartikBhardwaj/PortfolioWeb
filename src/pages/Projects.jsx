@@ -75,7 +75,7 @@ const Projects = () => {
           <ProjectCard
             cardPosition={"start"}
             title="Chatease"
-            desc="Chatease is a versatile chatting application designed for seamless two-way communication, complemented by features for single chat and group creation, fostering collaborative interaction among its diverse user base."
+            desc="Chatease is a versatile chatting application designed for seamless two-way communication, complemented by features for personal chats and group creation."
             git="https://github.com/DevKartikBhardwaj/Chatease"
             live="https://chatease-frontend-4ips.onrender.com/"
             img={"https://res.cloudinary.com/dwhf5f08p/image/upload/v1727530344/screencapture-chatease-frontend-4ips-onrender-2024-09-28-19_02_00_odautq.png"}
