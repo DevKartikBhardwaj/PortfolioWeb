@@ -15,13 +15,14 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          setEmail("Loading...");
           setEmail("Respose Submitted Successfully");
           setTimeout(() => {
             setEmail("");
           }, 2000);
         },
         (error) => {
-          console.log("error");
+          setEmail("Loading...");
           setEmail("Oops! Some error occured");
           setTimeout(() => {
             setEmail("");
