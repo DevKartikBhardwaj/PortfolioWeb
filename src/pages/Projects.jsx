@@ -123,7 +123,7 @@ const ProjectCard = ({
         </div>
         <div className="project-description-half">
           <h2>{title}</h2>
-          <p style={{height:"110px"}}>{desc}</p>
+          <p style={{minHeight:"110px"}}>{desc}</p>
           <div className="links-container">
             <a href={git} target="_blank">
               Source Code &nbsp;
