@@ -4,7 +4,7 @@ import { RingLoader } from "react-spinners";
 const Loading = () => {
   return (
     <Html>
-      <RingLoader color="#ff983d" />
+      <RingLoader color="#ff983e" />
     </Html>
   );
 };
